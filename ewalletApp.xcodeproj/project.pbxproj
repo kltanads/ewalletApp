@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F730278C309A07E100FF9052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F730276D309A07E000FF9052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7302774309A07E000FF9052;
+			remoteInfo = ewalletApp;
+		};
+		F7302796309A07E100FF9052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F730276D309A07E000FF9052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7302774309A07E000FF9052;
+			remoteInfo = ewalletApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7302775309A07E000FF9052 /* ewalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ewalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F730278B309A07E100FF9052 /* ewalletAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ewalletAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7302795309A07E100FF9052 /* ewalletAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ewalletAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F730279B309A07E100FF9052 /* Exceptions for "ewalletApp" folder in "ewalletApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F7302774309A07E000FF9052 /* ewalletApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F7302777309A07E000FF9052 /* ewalletApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F730279B309A07E100FF9052 /* Exceptions for "ewalletApp" folder in "ewalletApp" target */,
+			);
+			path = ewalletApp;
+			sourceTree = "<group>";
+		};
+		F730278E309A07E100FF9052 /* ewalletAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ewalletAppTests;
+			sourceTree = "<group>";
+		};
+		F7302798309A07E100FF9052 /* ewalletAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ewalletAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7302772309A07E000FF9052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F7302788309A07E100FF9052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F7302792309A07E100FF9052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F730276C309A07E000FF9052 = {
+			isa = PBXGroup;
+			children = (
+				F7302777309A07E000FF9052 /* ewalletApp */,
+				F730278E309A07E100FF9052 /* ewalletAppTests */,
+				F7302798309A07E100FF9052 /* ewalletAppUITests */,
+				F7302776309A07E000FF9052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7302776309A07E000FF9052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7302775309A07E000FF9052 /* ewalletApp.app */,
+				F730278B309A07E100FF9052 /* ewalletAppTests.xctest */,
+				F7302795309A07E100FF9052 /* ewalletAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7302774309A07E000FF9052 /* ewalletApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F730279C309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletApp" */;
+			buildPhases = (
+				F7302771309A07E000FF9052 /* Sources */,
+				F7302772309A07E000FF9052 /* Frameworks */,
+				F7302773309A07E000FF9052 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F7302777309A07E000FF9052 /* ewalletApp */,
+			);
+			name = ewalletApp;
+			productName = ewalletApp;
+			productReference = F7302775309A07E000FF9052 /* ewalletApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F730278A309A07E100FF9052 /* ewalletAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73027A1309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletAppTests" */;
+			buildPhases = (
+				F7302787309A07E100FF9052 /* Sources */,
+				F7302788309A07E100FF9052 /* Frameworks */,
+				F7302789309A07E100FF9052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F730278D309A07E100FF9052 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F730278E309A07E100FF9052 /* ewalletAppTests */,
+			);
+			name = ewalletAppTests;
+			productName = ewalletAppTests;
+			productReference = F730278B309A07E100FF9052 /* ewalletAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7302794309A07E100FF9052 /* ewalletAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73027A4309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletAppUITests" */;
+			buildPhases = (
+				F7302791309A07E100FF9052 /* Sources */,
+				F7302792309A07E100FF9052 /* Frameworks */,
+				F7302793309A07E100FF9052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7302797309A07E100FF9052 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7302798309A07E100FF9052 /* ewalletAppUITests */,
+			);
+			name = ewalletAppUITests;
+			productName = ewalletAppUITests;
+			productReference = F7302795309A07E100FF9052 /* ewalletAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F730276D309A07E000FF9052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					F7302774309A07E000FF9052 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					F730278A309A07E100FF9052 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = F7302774309A07E000FF9052;
+					};
+					F7302794309A07E100FF9052 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = F7302774309A07E000FF9052;
+					};
+				};
+			};
+			buildConfigurationList = F7302770309A07E000FF9052 /* Build configuration list for PBXProject "ewalletApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F730276C309A07E000FF9052;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7302776309A07E000FF9052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7302774309A07E000FF9052 /* ewalletApp */,
+				F730278A309A07E100FF9052 /* ewalletAppTests */,
+				F7302794309A07E100FF9052 /* ewalletAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7302773309A07E000FF9052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F7302789309A07E100FF9052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F7302793309A07E100FF9052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7302771309A07E000FF9052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F7302787309A07E100FF9052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F7302791309A07E100FF9052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F730278D309A07E100FF9052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7302774309A07E000FF9052 /* ewalletApp */;
+			targetProxy = F730278C309A07E100FF9052 /* PBXContainerItemProxy */;
+		};
+		F7302797309A07E100FF9052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7302774309A07E000FF9052 /* ewalletApp */;
+			targetProxy = F7302796309A07E100FF9052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F730279D309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ewalletApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your wallet.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F730279E309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ewalletApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your wallet.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F730279F309A07E100FF9052 /* Debug configuration for PBXProject "ewalletApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F73027A0309A07E100FF9052 /* Release configuration for PBXProject "ewalletApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73027A2309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ewalletApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ewalletApp";
+			};
+			name = Debug;
+		};
+		F73027A3309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ewalletApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ewalletApp";
+			};
+			name = Release;
+		};
+		F73027A5309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ewalletApp;
+			};
+			name = Debug;
+		};
+		F73027A6309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLPTUD34H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ewallet.ewalletAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ewalletApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7302770309A07E000FF9052 /* Build configuration list for PBXProject "ewalletApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730279F309A07E100FF9052 /* Debug configuration for PBXProject "ewalletApp" */,
+				F73027A0309A07E100FF9052 /* Release configuration for PBXProject "ewalletApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F730279C309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730279D309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletApp" */,
+				F730279E309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F73027A1309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73027A2309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletAppTests" */,
+				F73027A3309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletAppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F73027A4309A07E100FF9052 /* Build configuration list for PBXNativeTarget "ewalletAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73027A5309A07E100FF9052 /* Debug configuration for PBXNativeTarget "ewalletAppUITests" */,
+				F73027A6309A07E100FF9052 /* Release configuration for PBXNativeTarget "ewalletAppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F730276D309A07E000FF9052 /* Project object */;
+	validationLevel = 1;
+}

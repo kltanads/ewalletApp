@@ -12,12 +12,12 @@ nonisolated protocol HTTPClient: Sendable {
 }
 
 nonisolated final class URLSessionHTTPClient: HTTPClient {
-    private let baseURL: URL
+    private let baseURL: URL?
     private let session: URLSession
     private let tokenProvider: @Sendable () async throws -> String?
 
     init(
-        baseURL: URL,
+        baseURL: URL?,
         session: URLSession = URLSession(configuration: .ephemeral),
         tokenProvider: @escaping @Sendable () async throws -> String?
     ) {
@@ -28,6 +28,7 @@ nonisolated final class URLSessionHTTPClient: HTTPClient {
 
     func send<Response: Decodable & Sendable>(_ endpoint: Endpoint) async throws -> Response {
         try Task.checkCancellation()
+        guard let baseURL else { throw NetworkError.notConfigured }
         
         guard let token = try await tokenProvider(), !token.isEmpty else {
             throw NetworkError.sessionExpired
@@ -72,6 +73,7 @@ nonisolated final class URLSessionHTTPClient: HTTPClient {
         }
 
         let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
         do {
             return try decoder.decode(Response.self, from: data)
         } catch {

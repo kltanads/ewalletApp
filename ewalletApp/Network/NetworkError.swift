@@ -8,6 +8,7 @@
 import Foundation
 
 nonisolated enum NetworkError: Error, Equatable {
+    case notConfigured
     case invalidRequest
     case invalidResponse
     case sessionExpired

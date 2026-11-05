@@ -1,0 +1,542 @@
+[
+  {
+    "id": "tx_001",
+    "type": "debit",
+    "amount": 12.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "completed",
+    "createdAt": "2026-10-20T08:30:00Z"
+  },
+  {
+    "id": "tx_002",
+    "type": "credit",
+    "amount": 25.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "pending",
+    "createdAt": "2026-10-20T07:30:00Z"
+  },
+  {
+    "id": "tx_003",
+    "type": "debit",
+    "amount": 37.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "failed",
+    "createdAt": "2026-10-20T06:30:00Z"
+  },
+  {
+    "id": "tx_004",
+    "type": "credit",
+    "amount": 50.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "completed",
+    "createdAt": "2026-10-20T05:30:00Z"
+  },
+  {
+    "id": "tx_005",
+    "type": "debit",
+    "amount": 62.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "pending",
+    "createdAt": "2026-10-20T04:30:00Z"
+  },
+  {
+    "id": "tx_006",
+    "type": "credit",
+    "amount": 75.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "failed",
+    "createdAt": "2026-10-20T03:30:00Z"
+  },
+  {
+    "id": "tx_007",
+    "type": "debit",
+    "amount": 87.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "completed",
+    "createdAt": "2026-10-20T02:30:00Z"
+  },
+  {
+    "id": "tx_008",
+    "type": "credit",
+    "amount": 100.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "pending",
+    "createdAt": "2026-10-20T01:30:00Z"
+  },
+  {
+    "id": "tx_009",
+    "type": "debit",
+    "amount": 112.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "failed",
+    "createdAt": "2026-10-20T00:30:00Z"
+  },
+  {
+    "id": "tx_010",
+    "type": "credit",
+    "amount": 125.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "completed",
+    "createdAt": "2026-10-19T23:30:00Z"
+  },
+  {
+    "id": "tx_011",
+    "type": "debit",
+    "amount": 137.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "pending",
+    "createdAt": "2026-10-19T22:30:00Z"
+  },
+  {
+    "id": "tx_012",
+    "type": "credit",
+    "amount": 150.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "failed",
+    "createdAt": "2026-10-19T21:30:00Z"
+  },
+  {
+    "id": "tx_013",
+    "type": "debit",
+    "amount": 162.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "completed",
+    "createdAt": "2026-10-19T20:30:00Z"
+  },
+  {
+    "id": "tx_014",
+    "type": "credit",
+    "amount": 175.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "pending",
+    "createdAt": "2026-10-19T19:30:00Z"
+  },
+  {
+    "id": "tx_015",
+    "type": "debit",
+    "amount": 187.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "failed",
+    "createdAt": "2026-10-19T18:30:00Z"
+  },
+  {
+    "id": "tx_016",
+    "type": "credit",
+    "amount": 200.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "completed",
+    "createdAt": "2026-10-19T17:30:00Z"
+  },
+  {
+    "id": "tx_017",
+    "type": "debit",
+    "amount": 212.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "pending",
+    "createdAt": "2026-10-19T16:30:00Z"
+  },
+  {
+    "id": "tx_018",
+    "type": "credit",
+    "amount": 225.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "failed",
+    "createdAt": "2026-10-19T15:30:00Z"
+  },
+  {
+    "id": "tx_019",
+    "type": "debit",
+    "amount": 237.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "completed",
+    "createdAt": "2026-10-19T14:30:00Z"
+  },
+  {
+    "id": "tx_020",
+    "type": "credit",
+    "amount": 250.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "pending",
+    "createdAt": "2026-10-19T13:30:00Z"
+  },
+  {
+    "id": "tx_021",
+    "type": "debit",
+    "amount": 262.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "failed",
+    "createdAt": "2026-10-19T12:30:00Z"
+  },
+  {
+    "id": "tx_022",
+    "type": "credit",
+    "amount": 275.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "completed",
+    "createdAt": "2026-10-19T11:30:00Z"
+  },
+  {
+    "id": "tx_023",
+    "type": "debit",
+    "amount": 287.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "pending",
+    "createdAt": "2026-10-19T10:30:00Z"
+  },
+  {
+    "id": "tx_024",
+    "type": "credit",
+    "amount": 300.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "failed",
+    "createdAt": "2026-10-19T09:30:00Z"
+  },
+  {
+    "id": "tx_025",
+    "type": "debit",
+    "amount": 312.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "completed",
+    "createdAt": "2026-10-19T08:30:00Z"
+  },
+  {
+    "id": "tx_026",
+    "type": "credit",
+    "amount": 325.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "pending",
+    "createdAt": "2026-10-19T07:30:00Z"
+  },
+  {
+    "id": "tx_027",
+    "type": "debit",
+    "amount": 337.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "failed",
+    "createdAt": "2026-10-19T06:30:00Z"
+  },
+  {
+    "id": "tx_028",
+    "type": "credit",
+    "amount": 350.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "completed",
+    "createdAt": "2026-10-19T05:30:00Z"
+  },
+  {
+    "id": "tx_029",
+    "type": "debit",
+    "amount": 362.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "pending",
+    "createdAt": "2026-10-19T04:30:00Z"
+  },
+  {
+    "id": "tx_030",
+    "type": "credit",
+    "amount": 375.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "failed",
+    "createdAt": "2026-10-19T03:30:00Z"
+  },
+  {
+    "id": "tx_031",
+    "type": "debit",
+    "amount": 387.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "completed",
+    "createdAt": "2026-10-19T02:30:00Z"
+  },
+  {
+    "id": "tx_032",
+    "type": "credit",
+    "amount": 400.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "pending",
+    "createdAt": "2026-10-19T01:30:00Z"
+  },
+  {
+    "id": "tx_033",
+    "type": "debit",
+    "amount": 412.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "failed",
+    "createdAt": "2026-10-19T00:30:00Z"
+  },
+  {
+    "id": "tx_034",
+    "type": "credit",
+    "amount": 425.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "completed",
+    "createdAt": "2026-10-18T23:30:00Z"
+  },
+  {
+    "id": "tx_035",
+    "type": "debit",
+    "amount": 437.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "pending",
+    "createdAt": "2026-10-18T22:30:00Z"
+  },
+  {
+    "id": "tx_036",
+    "type": "credit",
+    "amount": 450.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "failed",
+    "createdAt": "2026-10-18T21:30:00Z"
+  },
+  {
+    "id": "tx_037",
+    "type": "debit",
+    "amount": 462.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "completed",
+    "createdAt": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "tx_038",
+    "type": "credit",
+    "amount": 475.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "pending",
+    "createdAt": "2026-10-18T19:30:00Z"
+  },
+  {
+    "id": "tx_039",
+    "type": "debit",
+    "amount": 487.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "failed",
+    "createdAt": "2026-10-18T18:30:00Z"
+  },
+  {
+    "id": "tx_040",
+    "type": "credit",
+    "amount": 500.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "completed",
+    "createdAt": "2026-10-18T17:30:00Z"
+  },
+  {
+    "id": "tx_041",
+    "type": "debit",
+    "amount": 512.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "pending",
+    "createdAt": "2026-10-18T16:30:00Z"
+  },
+  {
+    "id": "tx_042",
+    "type": "credit",
+    "amount": 525.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "failed",
+    "createdAt": "2026-10-18T15:30:00Z"
+  },
+  {
+    "id": "tx_043",
+    "type": "debit",
+    "amount": 537.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "completed",
+    "createdAt": "2026-10-18T14:30:00Z"
+  },
+  {
+    "id": "tx_044",
+    "type": "credit",
+    "amount": 550.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "pending",
+    "createdAt": "2026-10-18T13:30:00Z"
+  },
+  {
+    "id": "tx_045",
+    "type": "debit",
+    "amount": 562.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "failed",
+    "createdAt": "2026-10-18T12:30:00Z"
+  },
+  {
+    "id": "tx_046",
+    "type": "credit",
+    "amount": 575.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "completed",
+    "createdAt": "2026-10-18T11:30:00Z"
+  },
+  {
+    "id": "tx_047",
+    "type": "debit",
+    "amount": 587.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "pending",
+    "createdAt": "2026-10-18T10:30:00Z"
+  },
+  {
+    "id": "tx_048",
+    "type": "credit",
+    "amount": 600.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "failed",
+    "createdAt": "2026-10-18T09:30:00Z"
+  },
+  {
+    "id": "tx_049",
+    "type": "debit",
+    "amount": 612.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "completed",
+    "createdAt": "2026-10-18T08:30:00Z"
+  },
+  {
+    "id": "tx_050",
+    "type": "credit",
+    "amount": 625.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "pending",
+    "createdAt": "2026-10-18T07:30:00Z"
+  },
+  {
+    "id": "tx_051",
+    "type": "debit",
+    "amount": 637.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "failed",
+    "createdAt": "2026-10-18T06:30:00Z"
+  },
+  {
+    "id": "tx_052",
+    "type": "credit",
+    "amount": 650.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "completed",
+    "createdAt": "2026-10-18T05:30:00Z"
+  },
+  {
+    "id": "tx_053",
+    "type": "debit",
+    "amount": 662.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "pending",
+    "createdAt": "2026-10-18T04:30:00Z"
+  },
+  {
+    "id": "tx_054",
+    "type": "credit",
+    "amount": 675.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "failed",
+    "createdAt": "2026-10-18T03:30:00Z"
+  },
+  {
+    "id": "tx_055",
+    "type": "debit",
+    "amount": 687.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "completed",
+    "createdAt": "2026-10-18T02:30:00Z"
+  },
+  {
+    "id": "tx_056",
+    "type": "credit",
+    "amount": 700.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "pending",
+    "createdAt": "2026-10-18T01:30:00Z"
+  },
+  {
+    "id": "tx_057",
+    "type": "debit",
+    "amount": 712.5,
+    "currency": "USD",
+    "merchant": "Coffee House",
+    "status": "failed",
+    "createdAt": "2026-10-18T00:30:00Z"
+  },
+  {
+    "id": "tx_058",
+    "type": "credit",
+    "amount": 725.0,
+    "currency": "USD",
+    "merchant": "Salary",
+    "status": "completed",
+    "createdAt": "2026-10-17T23:30:00Z"
+  },
+  {
+    "id": "tx_059",
+    "type": "debit",
+    "amount": 737.5,
+    "currency": "USD",
+    "merchant": "Grocery Store",
+    "status": "pending",
+    "createdAt": "2026-10-17T22:30:00Z"
+  },
+  {
+    "id": "tx_060",
+    "type": "credit",
+    "amount": 750.0,
+    "currency": "USD",
+    "merchant": "Refund",
+    "status": "failed",
+    "createdAt": "2026-10-17T21:30:00Z"
+  }
+]

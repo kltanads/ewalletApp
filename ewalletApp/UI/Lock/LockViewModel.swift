@@ -73,6 +73,16 @@ final class LockViewModel {
         state = .locked
     }
 
+    func expireSession() {
+        lock()
+        do {
+            try tokenStore.delete()
+            state = .failed("Your session has expired. Unlock to continue.")
+        } catch {
+            state = .failed(error.localizedDescription)
+        }
+    }
+
     func didEnterBackground() {
         if backgroundedAt == nil {
             backgroundedAt = now()

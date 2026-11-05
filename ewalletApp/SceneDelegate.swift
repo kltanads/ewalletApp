@@ -19,12 +19,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = scene as? UIWindowScene else { return }
 
         let window = UIWindow(windowScene: windowScene)
+        let tokenStore = KeychainTokenStore(service: Constants.keychainService)
+        let client = URLSessionHTTPClient(
+            baseURL: Constants.apiBaseURL,
+            session: MockAPI.makeSession(scenario: .slow),
+            tokenProvider: { try await tokenStore.read() }
+        )
+        let service = ApiServices(client: client)
         let viewModel = LockViewModel(
             authenticator: BiometricAuthenticator(),
-            tokenStore: KeychainTokenStore(service: Constants.keychainService),
+            tokenStore: tokenStore,
             backgroundTimeout: Constants.backgroundLockTimeout
         )
-        let coordinator = AppCoordinator(lockViewModel: viewModel)
+        let coordinator = AppCoordinator(lockViewModel: viewModel, service: service)
         self.window = window
         self.coordinator = coordinator
         coordinator.start(in: window)

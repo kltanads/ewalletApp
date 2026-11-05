@@ -9,7 +9,7 @@ import Foundation
 
 nonisolated enum Endpoint: Sendable {
     case wallet
-    case transactions(page: Int, pageSize: Int = Constants.transactionPageSize, type: TransactionFilter = .all)
+    case transactions(page: Int, pageSize: Int = Constants.transactionPageSize, type: TransactionQueryType = .all)
 
     func makeRequest(baseURL: URL, token: String) throws -> URLRequest {
         guard var components = URLComponents(url: baseURL, resolvingAgainstBaseURL: false),
@@ -44,6 +44,6 @@ nonisolated enum Endpoint: Sendable {
     }
 }
 
-nonisolated enum TransactionFilter: String, Sendable {
+nonisolated enum TransactionQueryType: String, Sendable {
     case all, credit, debit
 }

@@ -10,11 +10,15 @@ import UIKit
 class AppCoordinator {
     private let navigationController = UINavigationController()
     private let lockViewModel: LockViewModel
+    private let service: any ApiServicing
+    private weak var walletViewModel: WalletViewModel?
+    private weak var historyViewModel: TransactionHistoryViewModel?
     private weak var window: UIWindow?
     private var privacyCover: UIView?
 
-    init(lockViewModel: LockViewModel) {
+    init(lockViewModel: LockViewModel, service: any ApiServicing) {
         self.lockViewModel = lockViewModel
+        self.service = service
     }
 
     func start(in window: UIWindow) {
@@ -25,12 +29,16 @@ class AppCoordinator {
     }
 
     func willResignActive() {
-        guard let window, privacyCover == nil else { return }
+        guard let window, privacyCover == nil else {
+            return
+        }
+        
         let cover = UIView(frame: window.bounds)
         cover.backgroundColor = .systemBackground
         cover.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         cover.accessibilityIdentifier = "privacyCover"
         window.addSubview(cover)
+        
         privacyCover = cover
     }
 
@@ -53,6 +61,8 @@ class AppCoordinator {
     }
 
     private func showLock() {
+        walletViewModel?.cancelLoading()
+        historyViewModel?.cancelLoading()
         let controller = LockViewController(viewModel: lockViewModel) { [weak self] in
             self?.showWallet()
         }
@@ -60,10 +70,42 @@ class AppCoordinator {
     }
 
     private func showWallet() {
-        let controller = WalletViewController { [weak self] in
-            self?.lockViewModel.lock()
-            self?.showLock()
-        }
+        let viewModel = WalletViewModel(service: service)
+        walletViewModel = viewModel
+        let controller = WalletViewController(
+            viewModel: viewModel,
+            onLock: { [weak self] in
+                self?.lockViewModel.lock()
+                self?.showLock()
+            },
+            onSessionExpired: { [weak self] in
+                self?.sessionExpired()
+            },
+            onShowHistory: { [weak self] in
+                self?.showHistory()
+            }
+        )
         navigationController.setViewControllers([controller], animated: false)
+    }
+
+    private func showHistory() {
+        let viewModel = TransactionHistoryViewModel(service: service)
+        historyViewModel = viewModel
+        let controller = TransactionHistoryViewController(
+            viewModel: viewModel,
+            onSelect: { [weak self] transaction in
+                let details = TransactionDetailViewModel(transaction: transaction)
+                self?.navigationController.pushViewController(
+                    TransactionDetailViewController(viewModel: details), animated: true
+                )
+            },
+            onSessionExpired: { [weak self] in self?.sessionExpired() }
+        )
+        navigationController.pushViewController(controller, animated: true)
+    }
+
+    private func sessionExpired() {
+        lockViewModel.expireSession()
+        showLock()
     }
 }
